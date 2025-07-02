@@ -1,5 +1,5 @@
 # Thumpie2Obj
-A quick and dirty tool for convert the models from the hit 2010 game Thumpies by Big Blue Bubble to Wavefront OBJ (`.obj`) files.
+A quick and dirty tool for converting the models from the hit 2010 game Thumpies by Big Blue Bubble to and from Wavefront OBJ (`.obj`) files. And extracting and compressing the games assets too.
 
 <img src="images/blender example.png" alt="example image of extracted models in blender">
 
