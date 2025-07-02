@@ -4,18 +4,25 @@ A quick and dirty tool for convert the models from the hit 2010 game Thumpies by
 <img src="images/blender example.png" alt="example image of extracted models in blender">
 
 ## Usage
-For extracting, simply run:
+For extracting models, run:
 ```shell
 python thumpie2obj.py <models.bin>
 ```
 With `<models.bin>` replaced by actual models file you wish to convert (i.e. noobie01.bin).
 
-For implanting, run:
+For encoding models, run:
 ```shell
 python obj2thumpie.py <in_file.obj> <texture/name/and/path.png>
 ```
 With `<in_file.obj>` replaced by your Wavefront OBJ (`.obj`), and `<texture/name/and/path.png>` with the path to the texture the game will use.
 (`noobie01.obj game/data/images/textures/models/balls/noobie_bigger01`)
+
+For extracting and compressing the games assets, run:
+```shell
+python data_extractor.py (d[code]|e[ncode]) (<in_dir>|<in_file.bin>)
+```
+With `(d[code]|e[ncode])` replaced by the action you wish to do (i.e. `d` or `decode` for extracting, and `e` or `encode` for compressing).
+and `(<in_dir>|<in_file.bin>)` with either the `data.bin` from the data or the folder containing the extracted assets.
 ## Note
 If you notice any issues or inconsistencies with the models this program makes open an issue.
 I did not make this to accurately extract models, but only to see if I could, so I did skip things.
