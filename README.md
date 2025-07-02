@@ -22,7 +22,7 @@ For extracting and compressing the games assets, run:
 python data_extractor.py (d[code]|e[ncode]) (<in_dir>|<in_file.bin>)
 ```
 With `(d[code]|e[ncode])` replaced by the action you wish to do (i.e. `d` or `decode` for extracting, and `e` or `encode` for compressing).
-and `(<in_dir>|<in_file.bin>)` with either the `data.bin` from the data or the folder containing the extracted assets.
+and `(<in_dir>|<in_file.bin>)` with either the `data.bin` from the game or the folder containing the extracted assets.
 ## Note
 If you notice any issues or inconsistencies with the models this program makes open an issue.
 I did not make this to accurately extract models, but only to see if I could, so I did skip things.
