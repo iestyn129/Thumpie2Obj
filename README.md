@@ -6,6 +6,9 @@ Simply run:
 python thumpie2obj.py <models.bin>
 ```
 With `<models.bin>` replaced by actual models file you wish to convert (i.e. noobie01.bin).
+## Note
+If you notice any issues or inconsistencies with the models this program makes open an issue.
+I did not make this to accurately extract models, but only to see if I could, so I did skip things.
 ## Disclaimer
 >This project is an unofficial program designed for use with Thumpies (2010) files.
 >All trademarks, logos, and copyrighted materials are the property of their respective owners.
