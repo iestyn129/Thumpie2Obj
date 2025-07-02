@@ -5,6 +5,13 @@ from sys import argv
 from typing import BinaryIO
 import os
 
+__all__: list[str] = [
+	'Vertex',
+	'TextureCoordinate',
+	'Face',
+	'Model'
+]
+
 
 @dataclass
 class Vertex:
@@ -32,10 +39,6 @@ class Model:
 	vertexes: list[Vertex]
 	texture_coords: list[TextureCoordinate]
 	faces: list[Face]
-
-
-def read_byte(fp: BinaryIO) -> int:
-	return unpack('<B', fp.read(1))[0]
 
 
 def read_int(fp: BinaryIO) -> int:
